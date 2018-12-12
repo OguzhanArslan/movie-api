@@ -1,2 +1,2 @@
 # movie-api
-Node.JS MongoDB Movi API
+Node.JS MongoDB Movie API
