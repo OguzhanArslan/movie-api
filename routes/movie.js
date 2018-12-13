@@ -3,7 +3,7 @@ const router = express.Router();
 
 const Movies = require('../models/Movie');
 
-router.post('/movie', (req, res, next) => {    
+router.post('/movies', (req, res, next) => {    
     const movie = new Movies(req.body);
     const promise = movie.save();
     promise.then((data) => {
